@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+    <path d="M10,50
+             c0,-50 100,-50 100,0
+             c0,-50 100,-50 100,0
+             c0,-50 100,-50 100,0"
+        stroke="red" stroke-width="3" fill="none" />
+
+    <path d="M10,100
+             c0,50 100,50 100,0
+             c0,50 100,50 100,0
+             c0,50 100,50 100,0"
+        stroke="red" stroke-width="3" fill="green" />
+
+    <path d="M10,200 l100,0 l0,100 l-100,0"
+        stroke="blue" stroke-width="5" fill="yellow" />
+
+    <path d="M200,200 l100,0 l0,100 l-100,0 Z"
+        stroke="blue" stroke-width="5" fill="yellow" />
+</svg>
