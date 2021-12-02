@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+    <!-- <path d="M10,10 L25,150 L100,10 Z"
+        stroke="black" stroke-width="5"
+        fill="red" />
+
+    <path d="M200,10 l15,140 l75,-140 Z"
+        stroke="blue" stroke-width="5"
+        fill="green" /> -->
+
+    <path d="M10,50 c0,100 200,-100 200,0"
+      stroke="black" stroke-width="5"
+        fill="red"/>
+
+    <line x1="300" x2="300" y1="0" y2="500" stroke="gold" stroke-width="5" />
+</svg>
