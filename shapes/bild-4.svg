@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <polygon points="
+        50,0
+        100,50
+        100,100
+        50,150
+        0,100
+        0,50
+    " fill="gold" />
+    <line x1="60" x2="110" y1="160" y2="110" stroke="gold" stroke-width="5" />
+</svg>
