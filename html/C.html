@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        svg {
+            width: 100%;
+            
+        }
+
+        .bar {
+            animation-name: colors;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        .green-bar {
+            animation-delay: 1s;
+        }
+
+        .blue-bar {
+            animation-delay: 2s;
+        }
+
+        @keyframes colors {
+            0% { fill: red; }
+            32% { fill: red; }
+            33% { fill: green; }
+            66% { fill: green; }
+            67% { fill: blue; }
+            100% { fill: blue; }
+        }
+    </style>
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+        <path class="bar red-bar" d="M40,10
+                 l20,0
+                 l0,180
+                 l-20,0
+                 Z"
+            fill="red" />
+
+        <path class="bar green-bar" d="M90,10
+                l20,0
+                l0,180
+                l-20,0
+                Z"
+        fill="green" />
+
+       <path class="bar blue-bar" d="M140,10
+                l20,0
+                l0,180
+                l-20,0
+                Z"
+            fill="blue" />
+    
+    </svg>
+</body>
+</html>

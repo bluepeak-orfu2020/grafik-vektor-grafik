@@ -6,7 +6,7 @@ Skriv CSS så att bilden alltid är 50% av skärmens storlek. Verifiera att bild
 skalar korrekt och gör korrigeringar i SVG-filen om den inte gör det.
 
 ## B
-Skapa ett HTML-dokument och lägg in din SVG för bild-2 från shapes uppgiften
+Skapa ett HTML-dokument och lägg in din SVG för bild-3 från shapes uppgiften
 direkt i HTML-dokumentet. Skriv CSS så att SVG:en alltid är 200px bred.
 Skriv även CSS så att det vita i "ögat" blir rött när användaren hover:ar på
 bilden.
