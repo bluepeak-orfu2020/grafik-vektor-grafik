@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            outline: 2px dotted red;
+            width: 400px;
+        }
+        svg {
+            width: 500px;
+        }
+        .my-svg:hover .right-rect {
+            fill: red;
+        }
+        .my-line {
+            animation-name: updown;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes updown {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(50%); }
+        }
+    </style>
+</head>
+<body>
+    <img src="img.svg" />
+    <hr>
+    <svg class="my-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <rect width="50" height="100" fill="yellow" stroke="blue" stroke-width="5" />
+        <rect class="right-rect" x="50" width="50" height="100" fill="pink" stroke="blue" stroke-width="5" />
+        <line class="my-line" x1="50" x2="100" y1="10" y2="10" stroke="hotpink" stroke-width="10" />
+    </svg>
+</body>
+</html>
